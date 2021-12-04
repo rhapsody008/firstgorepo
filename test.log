@@ -1,0 +1,80 @@
+=== RUN   TestHelloName
+--- PASS: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+PASS
+ok  	example.com/greetings	0.179s
+=== RUN   TestHelloName
+--- PASS: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+PASS
+ok  	example.com/greetings	0.173s
+=== RUN   TestHelloName
+--- PASS: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+PASS
+ok  	example.com/greetings	0.172s
+Thu Dec  2 00:15:53 +08 2021
+=== RUN   TestHelloName
+--- PASS: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+PASS
+ok  	example.com/greetings	0.162s
+nohup: /dev/null: Permission denied
+
+
+Testing function on  ...
+=== RUN   TestHelloName
+    greetings_test.go:16: Hello(name) = "Great to see you, %!v(MISSING)!", <nil>, want match for `\bVicky\b`, nil
+--- FAIL: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+FAIL
+exit status 1
+FAIL	example.com/greetings	0.485s
+
+
+Testing function on Thu Dec  2 00:23:33 +08 2021 ...
+=== RUN   TestHelloName
+    greetings_test.go:16: Hello(name) = "Hail, %!v(MISSING)! Well met!", <nil>, want match for `\bVicky\b`, nil
+--- FAIL: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+FAIL
+exit status 1
+FAIL	example.com/greetings	0.177s
+
+
+Testing function on 02/28/2021 00:28:08 ...
+=== RUN   TestHelloName
+    greetings_test.go:16: Hello(name) = "Great to see you, %!v(MISSING)!", <nil>, want match for `\bVicky\b`, nil
+--- FAIL: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+FAIL
+exit status 1
+FAIL	example.com/greetings	0.482s
+
+
+Testing function on 02/Dec/2021 00:29:50 ...
+=== RUN   TestHelloName
+    greetings_test.go:16: Hello(name) = "Great to see you, %!v(MISSING)!", <nil>, want match for `\bVicky\b`, nil
+--- FAIL: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+FAIL
+exit status 1
+FAIL	example.com/greetings	0.178s
+
+
+Testing function on 02/Dec/2021 00:30:59 ...
+=== RUN   TestHelloName
+--- PASS: TestHelloName (0.00s)
+=== RUN   TestHelloEmpty
+--- PASS: TestHelloEmpty (0.00s)
+PASS
+ok  	example.com/greetings	0.500s
+
